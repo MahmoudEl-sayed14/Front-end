@@ -1,0 +1,39 @@
+.footer{
+   text-align: center;
+   background-color: #f1f1f1;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+.social-media-icon{
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    background-image: url(../img/1_ECSuMpJxNLViTxUOounYlw.webp);
+    display: inline-block; 
+    margin: 12px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.facebook-icon{
+    background-position: 0 -150px;
+}
+.facebook-icon:hover{
+    background-position: 0 -75px;
+}
+
+.twitter-icon{
+    background-position: -600px -150px;
+}
+.twitter-icon:hover{
+    background-position: -600px -75px;
+}
+
+.youtube-icon{
+    background-position: -752px -150px;
+}
+.youtube-icon:hover{
+    background-position: -752px -75px;
+}
