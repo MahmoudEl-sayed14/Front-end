@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Card-Container{
+    text-align: center;
+    overflow: hidden; 
+}
+
+.Card-Holder{
+    width: 33.33%;
+    float: left;
+    padding: 30px;
+}
+.Card-Layout{
+    min-height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: #f0f0f0;
+    overflow: hidden;
+    transition: .5s all;
+}
+.Card-Layout:hover{
+    transform: scale(1.1, 1.1);
+}
+.Card-Layout img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .Card-Holder{
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .Card-Holder{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Card-Holder{
+        width: 100%;
+    }
+}
